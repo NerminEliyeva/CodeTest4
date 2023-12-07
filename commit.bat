@@ -1,3 +1,3 @@
 git add .
-git commit -m "changes"
+git commit -m "changes from bat"
 git push 
