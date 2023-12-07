@@ -9,7 +9,8 @@ set "minute=%time:~3,2%"
 set "second=%time:~6,2%"
 set "datestamp=%year%-%month%-%day%-%hour%-%minute%-%second%"
 
+
 git add .
 git commit -m "some changes to the code base : %datestamp%"
-git push 
+git push
 pause
